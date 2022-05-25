@@ -85,7 +85,7 @@ static void help()
   SerialUSB.println(F("\r\nDigiOS version 2.0 User Commands"));
   horizontaLine();
 
-  SerialUSB.println(F("\r\nlogin, p[0-2] [on|off], ls, clear, help, logout"));
+  SerialUSB.println(F("\r\np[0-2] [on|off], ls, clear, help, logout"));
 }
 
 static void serialReader()
